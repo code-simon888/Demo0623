@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="zh_TW">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./stylesheets/all.css">
+    <script src="./jquery-3.6.0.js"></script>
+    <script src="./stylesheets/all.js"></script>    
+</head>
+<body>
+    <!--頁首-->
+    <header class="d-none d-md-block position-relative mb-3 header" style="background-image:url(https://images.unsplash.com/photo-1585561523046-1b68f02cae7a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80); width: 100%; height: 580px;">
+      <h1 class="position-absolute top-50 start-50 translate-middle text-white display-2 text-center fw-bold">Taste Good</h1>
+    </header>
+    <!--主要內容區-->
+    <section class="container">
+      <!--卡片並排-->
+      <div class="card-group mb-3">
+        <div class="row mx-auto d-flex justify-content-between">
+          <div id="card-1" class="col-md-6 col-lg-3">
+            <div id="cardOne" class="card border border-primary" style="width:15rem;">
+              <img src="https://images.unsplash.com/photo-1626071193583-b3a8fab1241a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDEwMXx4alBSNGhsa0JHQXx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text text-truncate">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+              <a href="#" class="btn btn-primary pt-2">點我有驚喜</a>
+            </div>
+          </div>
+          <div id="card-2" class="col-md-6 col-lg-3">
+            <div id="cardTwo" class="card border border-success animate__animated" style="width:15rem;">
+              <img src="https://images.unsplash.com/photo-1626071193583-b3a8fab1241a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDEwMXx4alBSNGhsa0JHQXx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text text-truncate">This card has supporting text below as a natural lead-in to additional content.</p>
+              </div>
+              <a href="#" class="btn btn-success pt-2">點我有驚喜</a>
+            </div>
+          </div>
+          <div id="card-3" class="col-md-6 col-lg-3">
+            <div id="cardThree" class="card border border-danger animate__animated" style="width:15rem;">
+              <img src="https://images.unsplash.com/photo-1626071193583-b3a8fab1241a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDEwMXx4alBSNGhsa0JHQXx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text text-truncate">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+              </div>
+              <a href="#" class="btn btn-danger pt-2">點我有驚喜</a>
+            </div>
+          </div>
+          <div id="card-4" class="col-md-6 col-lg-3">
+            <div id="cardFour" class="card border border-warning animate__animated" style="width:15rem;">
+              <img src="https://images.unsplash.com/photo-1626071193583-b3a8fab1241a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDEwMXx4alBSNGhsa0JHQXx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text text-truncate">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+              </div>
+              <a href="#" class="btn btn-warning pt-2">點我有驚喜</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--圖文交錯-->
+      <section class="mb-3">
+          <div class="card mx-auto mb-3">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <a href="#">
+                  <img src="https://images.unsplash.com/photo-1506619216599-9d16d0903dfd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGNvZmZlZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" class="img-fluid rounded-start" alt="...">
+                </a>
+              </div>
+              <div class="col-md-8 bg-primary">
+                <div class="card-body text-white">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <a href="#" class="btn btn-orange btn-outline-light pt-2 text-end">點我有驚喜</a>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+          <div class="card mx-auto mb-3">
+            <div class="row g-0 flex-row-reverse">
+              <div class="col-md-4">
+                <a href="#">
+                  <img src="https://images.unsplash.com/photo-1447753072467-2f56032d1d48?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEzfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60" class="img-fluid rounded-start" alt="...">
+                </a>
+              </div>
+              <div class="col-md-8 bg-warning">
+                <div class="card-body text-white">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <a href="#" class="btn btn-orange btn-outline-light pt-2 text-end">點我有驚喜</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <a href="#">
+                  <img src="https://images.unsplash.com/photo-1447753072467-2f56032d1d48?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEzfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60" class="img-fluid rounded-start" alt="...">
+                </a>
+              </div>
+              <div class="col-md-8 bg-success">
+                <div class="card-body text-white">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <a href="#" class="btn btn-orange btn-outline-light pt-2 text-end">點我有驚喜</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3">
+            <div class="row g-0 flex-row-reverse">
+              <div class="col-md-4">
+                <a href="#">
+                  <img src="https://images.unsplash.com/photo-1497515114629-f71d768fd07c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=884&q=80" class="img-fluid rounded-start" alt="...">
+                </a>
+              </div>
+              <div class="col-md-8 bg-danger">
+                <div class="card-body text-white">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <a href="#" class="btn btn-orange btn-outline-light pt-2 text-end">點我有驚喜</a>
+                </div>
+              </div>
+            </div>
+          </div>
+      </section>
+      <!--輪播-->
+      <div id="carouselExampleControls" class="carousel slide mb-3" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://images.unsplash.com/photo-1650369335952-abb47b6a81e1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDE3M3x4alBSNGhsa0JHQXx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://images.unsplash.com/photo-1650369335952-abb47b6a81e1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDE3M3x4alBSNGhsa0JHQXx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://images.unsplash.com/photo-1650369335952-abb47b6a81e1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDE3M3x4alBSNGhsa0JHQXx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <!--頁尾-->
+    <footer class="py-5 bg-info position-relative">
+      <div class="container">
+        <div class="row d-flex">
+          <div class="col-2 d-none d-md-block">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+            </ul>
+          </div>
+          <div class="col-2 d-none d-md-block">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+            </ul>
+          </div>
+          <div class="col-2 d-none d-md-block">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+            </ul>
+          </div>
+          <div class="col-4 offset-1 mx-auto">
+            <form>
+              <h5>Subscribe to our newsletter</h5>
+              <p>Monthly digest of whats new and exciting from us.</p>
+              <div class="d-flex w-100 gap-2">
+                <label for="newsletter1" class="visually-hidden">Email address</label>
+                <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                <button class="btn btn-primary" type="button">Subscribe</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+  
+      <div class="d-flex justify-content-evenly py-4 my-4 border-top">
+        <p class="d-none d-md-flex">© 2021 Company, Inc. All rights reserved.</p>
+        <ul class="list-unstyled d-flex justify-content-center">
+          <li class="ms-3 fs-4"><a class="link-dark" href="#"><i class="bi bi-twitter"></i></a></li>
+          <li class="ms-3 fs-4"><a class="link-dark" href="#"><i class="bi bi-instagram"></i></a></li>
+          <li class="ms-3 fs-4"><a class="link-dark" href="#"><i class="bi bi-meta"></i></a></li>
+        </ul>
+      </div>
+
+      <!--GoToTop-->
+      <div class="position-absolute bottom-0 end-0">
+       <a href="#">
+        <img src="./images/1464891752_f-top_256.png" class="w-50" alt="">
+       </a>
+      </div>
+
+    </footer>
+    
+
+    <!-- -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+</body>
+</html>
